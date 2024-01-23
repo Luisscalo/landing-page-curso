@@ -160,6 +160,31 @@ body{
     width: 50%;
 }
 
+/* seccion tres */
+.online{
+    display: flex;
+    justify-content: end;
+}
+
 .seccion-tres{
-    background-image: var(--background-gradient-seccion);
+    background-color: var(--color-color2);
+    display: flex;
+    flex-direction: column;
+}
+
+.figure-secciontres{
+    width: 40%;
+}
+
+.img-online{
+    display: block;
+    border-radius: 0 0 0 40%;
+    width: 100%;
+}
+
+.tittle.tittle--color3 {
+    font-size: 92px;
+    color: var(--color-color1);
+    text-align: center;
+    margin: 0 auto;
 }
