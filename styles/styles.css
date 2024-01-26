@@ -5,9 +5,13 @@
     --color-color1: #F67272;
     --color-color2: #0996B5;
     --color-color3: #7ECCD9;
+    --color-check: #4cd137;
     --background-color-header: #fff;
     --background-gradient:linear-gradient( #0996B5,#F67272);
+    --fondo-gradient: rgb(126,204,217);
+    --gradiente-radial: radial-gradient(circle, rgba(126,204,217,1) 0%, rgba(31,86,97,1) 51%, rgba(9,150,181,1) 100%);
     --background-gradient-seccion: linear-gradient(180deg, #FFF 17%, #0996B5 44%);
+    --tajeta: radial-gradient(circle, rgba(126,204,217,1) 3%, rgba(10,127,153,1) 35%, rgba(19,197,233,1) 100%);
     --color-Border: #e7e3eb;
     --font-family: 'Montserrat', sans-serif;
 }
@@ -60,7 +64,7 @@ body{
 }
 
 .figure-logo{
-    width: 10%;
+    width: 15%;
 }
 
 .img-logo{
@@ -322,4 +326,81 @@ body{
 .img-logo-height{
     height: 300px;
     border-radius: 2px;
+}
+
+/* seccion seis */
+
+.seccionseis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    background-color: var(--color-color1);
+}
+
+.circulito--colorr{
+    background-color: var(--color-check);
+        width: 35px;
+        height: 35px;
+}
+
+.tarjeta{
+    background-color: white;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 600px;
+    /* height: 600px;  */
+}
+
+.contenedorcito{
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        gap: 1em;
+}
+
+.categoria{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.price{
+    font-size: 70px;
+    color: var(--background-color-header);
+    padding: 10px;
+    border: 1px solid;
+}
+
+.tarjeta-titulo{
+font-size: 25px;
+padding: 10px 0;
+background: var(--gradiente-radial);
+}
+
+.check{
+    overflow: hidden;
+}
+
+.letra{
+    font-size: 20px;
+}
+
+.tarjetas{
+
+    border-radius: 10px;
+    box-shadow: 10px -16px 5px 0px rgba(0,0,0,0.21);
+}
+
+.tarjeta-color{
+    background-image: var(--tajeta);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    padding: 5em 40px;
 }
