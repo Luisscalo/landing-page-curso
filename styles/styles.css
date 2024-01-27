@@ -357,8 +357,15 @@ body{
     flex-direction: column;
     border-radius: 10px;
     justify-content: space-between;
+    width: 300px;
+    /* background-color: white;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
      width: 350px; 
-    height: 650px; 
+    height: 650px;  */
 }
 
 .contenedorcito{
@@ -470,6 +477,10 @@ background: var(--gradiente-radial);
     color: #FFF;
 }
 
+.container--width{
+    overflow: none;
+}
+
 @media (max-width:800px){
     .presentation {
         padding: 20px;
@@ -504,5 +515,9 @@ background: var(--gradiente-radial);
     }
     .contenedores{
         width: 300px;
+    }
+    .letra{
+        font-size: 15px;
+        text-align: left;
     }
 }
