@@ -341,8 +341,8 @@ body{
 
 .circulito--colorr{
     background-color: var(--color-check);
-        width: 35px;
-        height: 35px;
+    width: 35px;
+    height: 35px;
 }
 
 .tarjeta{
@@ -352,27 +352,31 @@ body{
     flex-direction: column;
     border-radius: 10px;
     justify-content: space-between;
-    width: 600px;
-    /* height: 600px;  */
+     width: 350px; 
+    height: 600px; 
 }
 
 .contenedorcito{
-        grid-template-columns: 1fr 1fr;
-        display: grid;
-        gap: 1em;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 0 2em;
 }
 
 .categoria{
     display: flex;
     gap: 1em;
-    align-items: center;
+    justify-content: center;
 }
 
 .price{
-    font-size: 70px;
+    font-size: 20px;
     color: var(--background-color-header);
     padding: 10px;
     border: 1px solid;
+    text-align: center;
 }
 
 .tarjeta-titulo{
@@ -383,10 +387,12 @@ background: var(--gradiente-radial);
 
 .check{
     overflow: hidden;
+    width: 35px;
 }
 
 .letra{
-    font-size: 20px;
+    font-size: 18px;
+    text-align: left;
 }
 
 .tarjetas{
@@ -402,5 +408,15 @@ background: var(--gradiente-radial);
     justify-content: center;
     padding: 20px;
     border-radius: 10px 10px 0 0;
-    padding: 5em 40px;
+    padding: 3em 40px;
+}
+
+.tituloo--font-color{
+    font-size: 90px;
+    color: var(--color-color3);
+}
+
+.contenedor--tarjetas{
+    gap: 3em;
+    display: flex;
 }
