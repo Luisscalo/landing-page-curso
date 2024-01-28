@@ -547,6 +547,9 @@ background: var(--gradiente-radial);
     .tarjeta{
         width: 280px;
     }
+    .footer__social{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (min-width:1124px){
