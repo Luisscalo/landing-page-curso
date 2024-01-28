@@ -29,6 +29,9 @@ body{
     font-family: var(--font-family);
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /* header */
 
 
@@ -38,6 +41,7 @@ body{
     align-items: center;
     border-bottom: 1px solid var(--color-Border);
     padding:  0 2em;
+    overflow: hidden;
 }
 
 .header__Buttons{
@@ -86,6 +90,7 @@ body{
     margin: 0 auto;
     max-height: 1200vh;
     overflow: hidden;
+
 }
 
 .seccion-uno-texts{
@@ -175,6 +180,7 @@ body{
     font-size: 100px;
     padding: .5em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
 .online{
@@ -290,12 +296,14 @@ body{
     justify-content: center;
     align-items: center;
     gap: 3em;
+    padding: 10px;
 }
 
 .tituloo{
     color: var(--color-color3);
     font-size: 100px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
 .titulooo{
@@ -322,6 +330,7 @@ body{
 }
 
 .contenedores{
+    width: 250px;
     box-shadow: 0 1px 3px #000;
     padding: 10px;
     border-radius: 10px 10px 0 0;
@@ -430,7 +439,7 @@ background: var(--gradiente-radial);
 }
 
 .contenedor--tarjetas{
-    gap: 3em;
+    gap: 2em;
     display: flex;
 }
 
@@ -481,20 +490,23 @@ background: var(--gradiente-radial);
     overflow: none;
 }
 
-@media (max-width:800px){
-    .presentation {
-        padding: 20px;
-        gap: 10px;
-        text-align: center;
-        align-items: center;
-        flex-direction: column;
+@media (max-width:450px){
+    .tittle{
+        font-size: 60px;
     }
 
-    .presentationImg {
-        border-radius: 50%;
-        display: block;
-        width: 100%;
-        margin: 0 auto;}
+    .paragraph{
+        text-align: center;
+    }
+    .seccion-dos{
+        flex-direction: column;
+    }
+    .tittle--color2 {
+        font-size: 20px;
+    }
+    .seccion-uno-figure {
+        width: 30%;
+    }
 
 }
 
