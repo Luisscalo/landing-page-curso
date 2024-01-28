@@ -541,7 +541,12 @@ background: var(--gradiente-radial);
     .div-online{
         display: none;
     }
-    
+    .contenedor--tarjetas{
+        flex-direction: column;
+    }
+    .tarjeta{
+        width: 280px;
+    }
 }
 
 @media (min-width:1124px){
