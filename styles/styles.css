@@ -261,6 +261,12 @@ html{
     display: flex;
     flex-direction: column;
     gap: .5em;
+    padding: 0px 170px 0 0;
+    text-align: left;
+}
+
+.cursos-texto--padding{
+    padding: 0 0 0 0;
 }
 
 /* seccion cuatro */
@@ -326,7 +332,7 @@ html{
 .contenedor-tabla{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
+    gap: 4em;
 }
 
 .contenedores{
@@ -490,7 +496,8 @@ background: var(--gradiente-radial);
     overflow: none;
 }
 
-@media (max-width:450px){
+
+@media (max-width:599px){
     .figure-logo {
         width: 70%;
     }
@@ -545,14 +552,26 @@ background: var(--gradiente-radial);
         flex-direction: column;
     }
     .tarjeta{
-        width: 280px;
+        width: 230px;
     }
     .footer__social{
         grid-template-columns: 1fr;
     }
+    .contenedor--tarjetas{
+        grid-template-columns: 1fr;
+    }
+    .cursos-texto{
+        padding: 0 260px 0 0;
+    }
+    .social__figure{
+        width: 50%;
+    }
 }
 
-@media (min-width:1124px){
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .tituloo--font-color{
+        text-align: center;
+    }
     .contenedor--tarjetas{
         gap: 3em;
         display: grid;
@@ -566,11 +585,34 @@ background: var(--gradiente-radial);
         grid-template-columns: 1fr 1fr;
     }
     .contenedores{
-        width: 300px;
+        width: auto;
     }
     .letra{
         font-size: 15px;
         text-align: left;
     }
-    
+    .tarjeta{
+        width: 250px;
+    }
+    .tituloo{
+        font-size: 80px;
+    }
+    .seccion-uno-figure--display{
+        display: none;
+    }
+    .seccion-uno-figure{
+        display: none;
+    }
+    .seccion-tres{
+        flex-direction: column;
+    }
+    .cursos{
+        align-items: center;
+    }
+    .div-online{
+        align-items: center;
+    }
+    .figure-logo{
+        width: auto;
+    }
 }
