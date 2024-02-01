@@ -53,6 +53,11 @@ html{
     padding: 2em;
 }
 
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+
 .header__a{
     text-decoration: none;
     color: var(--color-color1);
