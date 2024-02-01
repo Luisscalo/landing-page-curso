@@ -77,6 +77,10 @@ html{
     display: block;
 }
 
+.button{
+    display: none;
+}
+
 /* somos */
 
 .seccion-uno{
@@ -566,6 +570,49 @@ background: var(--gradiente-radial);
     .social__figure{
         width: 50%;
     }
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .abrir-menu{
+        color: #000;
+    }
+    .cerrar-menu{
+        color: #FFF;
+    }
+    .header__a{
+        color: var(--background-color-header);
+    }
+    .header__Buttons{
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: var(--color-color1);
+        padding: 2rem;
+        box-shadow: 0 0 100vmax rgba(0, 0, 0, .5);
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+    }
+    .header__Buttons-visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .wave{
+        position: initial;
+    }
+    .header__a:hover{
+        color: var(--background-color-header);
+        font-size: initial;
+    }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px){
