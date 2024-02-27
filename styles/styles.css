@@ -534,6 +534,8 @@ background: var(--gradiente-radial);
 }
 
 
+
+
 @media (max-width:599px){
     .figure-logo {
         width: 40%;

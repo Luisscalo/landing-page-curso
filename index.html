@@ -121,13 +121,13 @@
         <h1 class="tituloo">Autogestiva</h1>
         <p class="parrafoo">(Material descargable)</p>
         <div class="contenedor-tabla">
-            <div class="contenedores">
+            <!-- <div class="contenedores">
                 <figure class="figure-tabla">
                     <img class="img-logo img-logo-height" src="./styles/recursos/tablaimagen1.png" alt="caligrafia">
                 </figure>
                 <h1 class="titulooo">Curso de caligrafía </h1>
                 <p class="subtituloo">(40 pesos)</p>
-            </div>
+            </div> -->
             <div class="contenedores">
                 <figure class="figure-tabla">
                     <img class="img-logo img-logo-height" src="./styles/recursos/tablaimagen3.png" alt="guia">
@@ -149,14 +149,14 @@
                 <h1 class="titulooo">Examen entrenamiento a media superior </h1>
                 <p class="subtituloo">(60 pesos)</p>
             </div>
-            <div class="contenedores">
+            <div class="contenedores contenedores-grid-template-columns">
                 <figure class="figure-tabla">
                     <img class="img-logo img-logo-height" src="./styles/recursos/tablaimagen5.png" alt="examen">
                 </figure>
                 <h1 class="titulooo">Cuadernillo de ejercicios para Comipems </h1>
                 <p class="subtituloo">(150 pesos)</p>
             </div>
-            <div class="contenedores">
+            <div class="contenedores  contenedores-grid-template-columns">
                 <figure class="figure-tabla">
                     <img class="img-logo img-logo-height" src="./styles/recursos/tablaimagen6.png" alt="comipems">
                 </figure>
@@ -378,9 +378,32 @@
                 </div>
                 <br></br>
     </footer>
-    <a href="https://wa.me/527541078184?text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Cursomx.com." class="float" target="_blank">
+    <a href="https://wa.me/525548464503?text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Cursomx.com." class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
     <script src="./index.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyA8oCqgtsLwxk7Bk4E3H_fvqbCbIH7DPNA",
+          authDomain: "cursomx-curso.firebaseapp.com",
+          projectId: "cursomx-curso",
+          storageBucket: "cursomx-curso.appspot.com",
+          messagingSenderId: "24510171443",
+          appId: "1:24510171443:web:c4b8a49b93c918accf1646",
+          measurementId: "G-WNZ6FP54X9"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
