@@ -387,6 +387,10 @@ html{
     font-size: 50px;
 }
 
+.silueta-1{
+    border-radius: 15px;
+}
+
 /* seccion seis */
 
 .seccionseis{
@@ -458,6 +462,7 @@ html{
 .location-ubi{
     text-decoration: none;
     color: #000;
+    cursor: pointer;
 }
 
 .tarjeta-titulo{
@@ -707,6 +712,9 @@ background: var(--gradiente-radial);
     }
     .parrafo{
         width: 250px;
+    }
+    .silueta-1{
+    display: none;
     }
 
 }
