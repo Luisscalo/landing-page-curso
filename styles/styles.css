@@ -455,6 +455,11 @@ html{
     text-align: center;
 }
 
+.location-ubi{
+    text-decoration: none;
+    color: #000;
+}
+
 .tarjeta-titulo{
 font-size: 25px;
 padding: 10px 0;
